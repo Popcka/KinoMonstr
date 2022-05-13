@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .header {
     height: 177px;
     background-color: darkslateblue;
@@ -28,4 +34,36 @@
     font-size: 0.9em;
     padding: 4px 0 0 0;
     color: rgb(189, 189, 189);
+}
+.menubar {
+    width: 900px;
+    height: 13px;
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none; 
+    margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu li.selected a {
+    color: #aeb002;
+}
+
+ul.menu li a:hover {
+    color: #e4ec04;
 }
