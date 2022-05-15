@@ -40,7 +40,7 @@ h2 {
 
 a, a:hover {
     outline: none;
-    text-decoration: underline;
+    text-decoration: none;
     color: #aeb002;
 }
 
