@@ -176,6 +176,9 @@ hr {
 .content a {
     text-decoration: none;
 }
+.content h2 {
+    color: #5d5d5d;
+}
 
 .films_block {
     margin-bottom: 5px;
